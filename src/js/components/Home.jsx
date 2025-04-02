@@ -143,7 +143,7 @@ const Home = (props) => {
 			<div className="d-flex">
 
 				<Digit digitValue={"icono fantastico"} />
-				<Digit digitValue={props.counter} />
+				<Digit digitValue={<i className="fa-solid fa-clock"></i>} />
 				<Digit digitValue={props.counter} />
 				<Digit digitValue={props.counter} />
 				<Digit digitValue={props.counter} />
